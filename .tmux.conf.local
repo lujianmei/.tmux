@@ -11,6 +11,16 @@
 # then uncomment the following line to make Meta + arrow keys mapping work
 #set -ga terminal-overrides "*:kUP3=\e[1;9A,*:kDN3=\e[1;9B,*:kRIT3=\e[1;9C,*:kLFT3=\e[1;9D"
 
+set -g prefix2 C-a                       # GNU-Screen compatible prefix
+bind C-a send-prefix -2
+set-window-option -g mouse on
+set -sg escape-time 0
+
+
+
+unbind-key C-z                  #don't suspend-session
+bind-key z suspend-client       #reset suspend-client function
+
 
 # -- windows & pane creation ---------------------------------------------------
 
@@ -97,6 +107,12 @@ tmux_conf_theme_window_status_attr='none'
 tmux_conf_theme_window_status_format='#I #W'
 #tmux_conf_theme_window_status_format='#{circled_window_index} #W'
 #tmux_conf_theme_window_status_format='#I #W#{?window_bell_flag,🔔,}#{?window_zoomed_flag,🔍,}'
+
+tmux_conf_theme_window_status_attr='none'
+tmux_conf_theme_window_status_format='#I #W'
+#tmux_conf_theme_window_status_format='#{circled_window_index} #W'
+#tmux_conf_theme_window_status_format='#I #W#{?window_bell_flag,🔔,}#{?window_zoomed_flag,🔍,}'
+
 
 # window current status style
 #   - built-in variables are:
@@ -187,12 +203,6 @@ tmux_conf_theme_root_bg='none'
 tmux_conf_theme_root_attr='bold,blink'
 
 # battery bar symbols
-tmux_conf_battery_bar_symbol_full='◼'
-tmux_conf_battery_bar_symbol_empty='◻'
-#tmux_conf_battery_bar_symbol_full='♥'
-#tmux_conf_battery_bar_symbol_empty='·'
-
-# battery bar length (in number of symbols), possible values are:
 #   - auto
 #   - a number, e.g. 5
 tmux_conf_battery_bar_length='auto'
