@@ -16,12 +16,24 @@ bind C-a send-prefix -2
 set-window-option -g mouse on
 set -sg escape-time 0
 
+unbind C-b
+unbind C-z
+bind-key -T prefix C-z suspend-client
+
+# Mouse support
+set -g mouse on
+#switch cursor from block in insert mode
+
+set-option -g terminal-overrides '*88col*:colors=88,*256col*:colors=256,xterm*:XT:Ms=\E]52;%p1%s;%p2%s\007:Cc=\E]12;%p1%s\007:Cr=\E]112\007:Cs=\E]50;CursorShape=%?%p1%{3}%<%t%{0}%e%p1%{2}%-%;%d\007'
+set -g terminal-overrides '*88col*:colors=88,*256col*:colors=256,xterm*:XT:Cs=\E]Pl%p1%s\E\\:Ss=\E]50;CursorShape=%d\007'
 
 
-unbind-key C-z                  #don't suspend-session
-bind-key z suspend-client       #reset suspend-client function
+bind b split-window "tmux lsw | percol --initial-index $(tmux lsw | awk '/active.$/ {print NR-1}') | cut -d':' -f 1 | tr -d '\n' | xargs -0 tmux select-window -t"
+bind B split-window "tmux ls | percol --initial-index $(tmux ls | awk \"/^$(tmux display-message -p '#{session_name}'):/ {print NR-1}\") | cut -d':' -f 1 | tr -d '\n' | xargs -0 tmux switch-client -t"
 
 
+
+set-window-option -g pane-base-index 1
 # -- windows & pane creation ---------------------------------------------------
 
 # new window retains current path, possible values are:
@@ -245,8 +257,8 @@ tmux_conf_theme_clock_style='24'
 
 # force Vi mode
 #   really you should export VISUAL or EDITOR environment variable, see manual
-#set -g status-keys vi
-#set -g mode-keys vi
+set -g status-keys vi
+set -g mode-keys vi
 
 # move status line to top
 #set -g status-position top
