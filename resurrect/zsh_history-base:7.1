@@ -1,0 +1,64 @@
+vi config.el
+cd .emacs.d/elpa
+ls
+cd org-plus-contrib-20171009
+lls
+ls
+ls org-agenda.el
+vi org-agenda.el
+cd ../../
+./test
+./test-startup.sh
+ls
+./test-startup.sh
+ls
+cd elpa
+cd ..
+ls
+./test-startup.sh
+rm elpa/org-20171023
+./test-startup.sh
+./test-startup.sh
+./test-startup.sh
+cd ../dotfiles-mac
+git add .
+git commit -m "changed"
+cd .spacemacs.d
+git add .
+git commit -m "changed"
+git push origin master
+cd ..
+git add .
+git commit -m "changed"
+git push origin master
+cd ../.emacs.d
+./test-startup.sh
+cd ../.spacemacs.d/layers/init-org/
+vi packages.el
+cd ../../
+ls
+cd ~/dotfiles-mac
+cat .gitmodules
+ls
+cd .spacemacs.d
+ls
+cd third-plugins
+ls
+cd ..
+ls
+ls -al
+cat .gitmodules
+ls
+cd third-plugins
+ls
+cd chinese-fonts-setup
+ls
+ls -al
+cd ..
+cd org-html-themes
+ls -al
+cd ../../
+cd ..
+git submodule pull --recurise
+git submodule init --recurise
+git submodule foreach "git pull"

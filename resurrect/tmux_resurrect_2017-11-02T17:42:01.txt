@@ -1,0 +1,39 @@
+pane	editor	1	:vim	1	:*	1	:/Users/kevin/dotfiles-mac/.tmux	1	nvim	:nvim
+pane	editor	2	:ranger	0	:#-	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience/bike_rentals	1	Python	:/usr/bin/python -O /usr/local/bin//ranger
+pane	editor	3	:emacs	0	:#	1	:/Users/kevin	1	Emacs	:/usr/local/Cellar/emacs-plus/25.3/Emacs.app/Contents/MacOS/Emacs -nw
+pane	mac	1	:~	1	:*	1	:/Users/kevin	1	zsh	:
+pane	mac	2	:~	0	:#	1	:/Users/kevin	1	zsh	:
+pane	mac	3	:~	0	:#	1	:/Users/kevin	1	zsh	:
+pane	mac	4	:~	0	:#-	1	:/Users/kevin	1	zsh	:
+pane	python	1	:ipython	0	:	1	:/Users/kevin/workspace/github/python-projects	1	Python	:/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python /usr/local/bin//ipython
+pane	python	2	:..ts/bikerental	0	:	1	:/Users/kevin/workspace/github/python-projects/bikerental	1	zsh	:
+pane	python	3	:jupyter	0	:#-	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes	1	Python	:/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python /usr/local/bin/jupyter-notebook
+pane	python	4	:../bike_rentals	0	:	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience/bike_rentals	1	zsh	:
+pane	python	5	:../bike_rentals	1	:*	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience/bike_rentals	1	zsh	:
+pane	python	6	:~/.jupyter	0	:	1	:/Users/kevin/dotfiles-mac/.jupyter	1	zsh	:
+pane	tools	1	:~/.emacs.d	0	:#	1	:/Users/kevin/.emacs.d	1	zsh	:
+pane	tools	2	:~/.SpaceVim	1	:*	1	:/Users/kevin/.SpaceVim	1	zsh	:
+pane	tools	3	:/usr/local/bin	0	:-	1	:/usr/local/bin	1	zsh	:
+pane	tools	4	:..ithub/my-blog	0	:#	1	:/Users/kevin/workspace/github/my-blog	1	zsh	:
+pane	tools	5	:lein	0	:	1	:/Users/kevin/workspace/github/lisp-projects	1	bash	:/bin/bash /usr/local/bin//lein repl
+pane	tools	6	:~/dotfiles-mac	0	:	1	:/Users/kevin/dotfiles-mac	1	zsh	:
+window	editor	1	1	:*	5915,173x41,0,0,16
+window	editor	2	0	:#-	5917,173x41,0,0,18
+window	editor	3	0	:#	d911,173x41,0,0,22
+window	mac	1	1	:*	a9bd,173x20,0,0,0
+window	mac	2	0	:#	a9be,173x20,0,0,1
+window	mac	3	0	:#	a9bf,173x20,0,0,2
+window	mac	4	0	:#-	a9c0,173x20,0,0,3
+window	python	1	0	:	a9c2,173x20,0,0,5
+window	python	2	0	:	5510,173x20,0,0,11
+window	python	3	0	:#-	5512,173x20,0,0,13
+window	python	4	0	:	5513,173x20,0,0,14
+window	python	5	1	:*	5514,173x20,0,0,15
+window	python	6	0	:	5518,173x20,0,0,19
+window	tools	1	0	:#	a9c3,173x20,0,0,6
+window	tools	2	1	:*	a9c4,173x20,0,0,7
+window	tools	3	0	:-	a9c5,173x20,0,0,8
+window	tools	4	0	:#	a9c6,173x20,0,0,9
+window	tools	5	0	:	550f,173x20,0,0,10
+window	tools	6	0	:	5511,173x20,0,0,12
+state	editor	python

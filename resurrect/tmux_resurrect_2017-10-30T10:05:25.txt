@@ -1,0 +1,15 @@
+pane	base	1	:jupyter-notebook	0	:	1	:/Users/kevin	1	Python	:/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python /usr/local/bin//jupyter-notebook
+pane	base	2	:bundler	0	:#	1	:/Users/kevin/workspace/github/my-blog	1	ruby	:/Users/kevin/.gem/bin/jekyll serve    
+pane	base	3	:~/.emacs.d	0	:#-	1	:/Users/kevin/.emacs.d	1	zsh	:
+pane	base	4	:..ithub/my-blog	0	:#	1	:/Users/kevin/workspace/github/my-blog	1	zsh	:
+pane	base	5	:..notes/agendas	0	:#	1	:/Users/kevin/workspace/github/my-blog/work-notes/agendas	1	zsh	:
+pane	base	6	:../agendas/2017	0	:#	1	:/Users/kevin/workspace/github/my-blog/work-notes/agendas/2017	1	zsh	:
+pane	base	7	:exit	1	:*	1	:/Users/kevin/dotfiles-mac	1	zsh	:
+window	base	1	0	:	b7bf,196x23,0,0,2
+window	base	2	0	:#	b7c0,196x23,0,0,3
+window	base	3	0	:#-	b7c1,196x23,0,0,4
+window	base	4	0	:#	b7c2,196x23,0,0,5
+window	base	5	0	:#	b7c3,196x23,0,0,6
+window	base	6	0	:#	b7c4,196x23,0,0,7
+window	base	7	1	:*	b7c5,196x23,0,0,8
+state	base	

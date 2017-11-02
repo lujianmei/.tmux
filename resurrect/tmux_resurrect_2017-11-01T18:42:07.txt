@@ -1,0 +1,37 @@
+pane	editor	1	:vim	0	:#	1	:/Users/kevin/dotfiles-mac	1	nvim	:nvim
+pane	editor	2	:emacs	0	:-	1	:/Users/kevin	1	Emacs	:/usr/local/Cellar/emacs-plus/25.3/Emacs.app/Contents/MacOS/Emacs -nw
+pane	editor	3	:ranger	1	:*	1	:/Users/kevin/English	1	Python	:/usr/bin/python -O /usr/local/bin//ranger
+pane	mac	1	:~	1	:*	1	:/Users/kevin	1	zsh	:
+pane	mac	2	:~	0	:#	1	:/Users/kevin	1	zsh	:
+pane	mac	3	:~	0	:#	1	:/Users/kevin	1	zsh	:
+pane	mac	4	:~	0	:#-	1	:/Users/kevin	1	zsh	:
+pane	python	1	:ipython	1	:*	1	:/Users/kevin/workspace/github/python-projects	1	Python	:/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python /usr/local/bin//ipython
+pane	python	2	:..ojects/django	0	:#	1	:/Users/kevin/workspace/github/python-projects/django	1	zsh	:
+pane	python	3	:..ienceHandbook	0	:#	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes/PythonDataScienceHandbook	1	zsh	:
+pane	python	4	:..orDataScience	0	:#	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience	1	zsh	:
+pane	python	5	:..ntist-roadmap	0	:#-	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes/data-scientist-roadmap	1	zsh	:
+pane	tools	1	:~/.emacs.d	0	:#-	1	:/Users/kevin/.emacs.d	1	zsh	:
+pane	tools	2	:~/.SpaceVim	0	:#	1	:/Users/kevin/.SpaceVim	1	zsh	:
+pane	tools	3	:jupyter	0	:#	1	:/Users/kevin/workspace/github/my-blog/work-notes/notes/data-scientist-notes	1	Python	:/usr/local/Cellar/python3/3.6.2/Frameworks/Python.framework/Versions/3.6/Resources/Python.app/Contents/MacOS/Python /usr/local/bin/jupyter-notebook
+pane	tools	4	:bundle	0	:#	1	:/Users/kevin/workspace/github/my-blog	1	ruby	:/Users/kevin/.gem/bin/jekyll serve    
+pane	tools	5	:lein	0	:	1	:/Users/kevin/workspace/github/lisp-projects	1	bash	:/bin/bash /usr/local/bin//lein repl
+pane	tools	6	:~/dotfiles-mac	1	:*	1	:/Users/kevin/dotfiles-mac	1	zsh	:
+window	editor	1	0	:#	5515,173x20,0,0,16
+window	editor	2	0	:-	5516,173x20,0,0,17
+window	editor	3	1	:*	5517,173x20,0,0,18
+window	mac	1	1	:*	a9bd,173x20,0,0,0
+window	mac	2	0	:#	a9be,173x20,0,0,1
+window	mac	3	0	:#	a9bf,173x20,0,0,2
+window	mac	4	0	:#-	a9c0,173x20,0,0,3
+window	python	1	1	:*	b902,181x43,0,0,5
+window	python	2	0	:#	5cb0,181x43,0,0,11
+window	python	3	0	:#	5cb2,181x43,0,0,13
+window	python	4	0	:#	5cb3,181x43,0,0,14
+window	python	5	0	:#-	5cb4,181x43,0,0,15
+window	tools	1	0	:#-	b903,181x43,0,0,6
+window	tools	2	0	:#	b904,181x43,0,0,7
+window	tools	3	0	:#	b905,181x43,0,0,8
+window	tools	4	0	:#	b906,181x43,0,0,9
+window	tools	5	0	:	5caf,181x43,0,0,10
+window	tools	6	1	:*	5cb1,181x43,0,0,12
+state	editor	mac

@@ -1,0 +1,64 @@
+cd ../../
+cd ..
+./git-push.sh --remote no changed
+./git-push.sh --remote yes changed
+./git-push.sh --remote no changed
+./git-push.sh --remote yes changed
+ls
+cd publish-works
+ls
+open .
+cd ..
+./git-push.sh --remote no changed
+cd work-notes/agendas
+ls
+cd ../../../
+ls
+git clone https://github.com/lujianmei/handson-ml
+ls
+cd my-blog
+ls
+cd work-notes
+ls
+cd notes
+ls
+cd data-scientist-notes
+ls
+cd ..
+ls
+cd ..
+ls
+cat .gitmodules
+git submodule add https://github.com/lujianmei/PythonDataScienceHandbook notes/data-scientist-notes/PythonDataScientceHandbook
+cd ../
+vi git-push.sh
+ls
+./git-push.sh -r yes changed
+vi git-push.sh
+cd work-notes/notes
+ls
+cd data-scientist-notes
+ls
+mv PythonDataScientceHandbook PythonDataScienceHandbook
+cd ../../
+vi .gitmodules
+git submodule sync
+vi .gitmodules
+git submodule sync
+cd ..
+vi git-push.sh
+./git-push.sh -r yes changed
+vi git-push.sh
+vi .gitmodules
+cd work-notes
+vi .gitmodules
+cd notes/data-scientist-notes
+ls
+cd ..
+cd ../
+cd ..
+./git-push.sh -r yes changed
+vi git-push.sh
+./git-push.sh -r yes changed
+vi git-push.sh
+vi git-push.sh
