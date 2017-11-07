@@ -1,34 +1,3 @@
-tmux
-exit
-tmux
-exit
-tmux
-exit
-tmux
-exit
-cd dotfiles-mac/.tmuxinator
-vi mac.yml
-ls
-mv editor.yml editors.yml
-vi mac.yml
-tmuxinator start mac
-tmuxinator start server-tools
-cd /Users/kevin
-tmuxinator start editors
-tmuxinator start my-blog
-cd /Users/kevin
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes
-jupyter notebook
-cd /Users/kevin/workspace/github/python-projects
-/usr/local/Cellar/emacs-plus/25.3/bin/emacs -nw
-ipython
-cd ~/.SpaceVim
-cd /Users/kevin/workspace/github/my-blog
-cd ~/
-vim
-git pull
-cd django
-source ~/workspace/github/python-projects/env36/bin/activate
 cd /Users/kevin
 sudo nginx
 cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience
@@ -62,3 +31,34 @@ cd ~/.SpaceVim
 git pull
 pip install numpy matplotlib scipy pandas scikit-learn
 pip3 install numpy matplotlib scipy pandas scikit-learn
+cd ~/dotfiles-mac
+ls
+cd .tmux
+ls
+ls -al
+cd ~/.tmux
+ls
+ls -al
+cd plugins
+ls
+cd ..
+ls
+cd ..
+ls -al .tmux*
+cat .tmux-session
+rm .tmux-session
+mv .tmux/plugins dotfiles-mac/.tmux/
+mv .tmux/resurrect dotfiles-mac/.tmux/
+rm .tmux
+ln -s ~/dotfiles-mac/.tmux ~/.tmux
+cd .tmux
+ls
+cd plugins
+ls
+cd ../../
+ls
+ls -al
+cat .gemrc
+mv .gemrc dotfiles-mac/.gemrc
+ln -s ~/dotfiles-mac/.gemrc ~/.gemrc
+ls -al

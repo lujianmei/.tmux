@@ -1,0 +1,64 @@
+ls -al
+cd ~/.tmux
+ls
+ls -al
+cd plugins
+ls
+cd ..
+ls
+cd ..
+ls -al .tmux*
+cat .tmux-session
+rm .tmux-session
+mv .tmux/plugins dotfiles-mac/.tmux/
+mv .tmux/resurrect dotfiles-mac/.tmux/
+rm .tmux
+ln -s ~/dotfiles-mac/.tmux ~/.tmux
+cd .tmux
+ls
+cd plugins
+ls
+cd ../../
+ls
+ls -al
+cat .gemrc
+mv .gemrc dotfiles-mac/.gemrc
+ln -s ~/dotfiles-mac/.gemrc ~/.gemrc
+ls -al
+cd dotfiles-mac
+ls -al
+cd .oh-my-zsh
+ls
+git remote -v
+git pull
+cd ..
+ls
+rm ~/.oh-my-zsh
+ls -al
+mv .oh-my-zsh ~/
+vi .gitmodules
+git submodule sync
+git add .
+cd ~/
+ls -al
+cd .virtualenvs
+ls
+ls -al
+cd ..
+ls -al
+cd .config
+ls
+ls -al
+cd karabiner
+ls
+cd ..
+ls
+cd ../dotfiles-mac
+./git-push.sh -r yes changed
+vi .gitmodules
+git submodule sync
+git add .
+./git-push.sh -r yes changed
+cd ~
+cd .mu
+ls
