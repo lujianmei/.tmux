@@ -1,0 +1,64 @@
+cd ..
+ls
+git submodule add https://github.com/lujianmei/kubernetes-vagrant-coreos-cluster work-envs/kubernetes-vagrant-coreos-cluster
+VBoxManage dhcpserver remove --netname HostInterfaceNetworking-vboxnet0
+vagrant plugin install vagrant-parallels
+docker images -a
+git submodule add https://github.com/lujianmei/kubernetes-vagrant-coreos-cluster work-envs/kubernetes-vagrant-coreos-cluster
+git submodule add git@github.com:lujianmei/kubernetes-vagrant-coreos-cluster.git work-envs/kubernetes-vagrant-coreos-cluster
+ls
+cd work-envs
+ls
+cd kube
+cd kubernetes-vagrant-coreos-cluster
+ls
+docker pull lujianmei/data-science-notebook
+kill -9 2721
+exit
+tmuxinator start mac
+tmuxinator start python-projects
+tmuxinator start my-blog
+cd /Users/kevin
+tmuxinator start server-tools
+cd /Users/kevin
+cd ~/
+sleep 3m
+cd /Users/kevin
+sudo nginx
+sleep 5m
+cd /Users/kevin/workspace/github/python-projects
+cd ~/dotfiles-mac/work-envs/data-science-env
+NAME=my-notebook PORT=8888 WORK_VOLUME=data-scientist-notes NOTEBOOK_IMAGE_VERSION=v2 data-science-notebook/up.sh
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
+cd ~/.emacs.d
+git pull origin develop
+docker exec -it my-notebook-mongo mongo admin
+cd /Users/kevin/workspace/github/my-blog
+cd ~/.SpaceVim
+git pull
+cd ~/.oh-my-zsh
+git pull
+cd ~/dotfiles-mac
+docker image -a
+docker images -a
+n ~/.zshrc
+kill -9 15786
+n
+tmuxinator start editors
+ranger
+exit
+tmuxinator start mac
+cd /Users/kevin
+tmuxinator start python-projects
+tmuxinator start server-tools
+tmuxinator start editors
+cd ~/
+cd /Users/kevin
+ranger
+sleep 5m
+cd /Users/kevin/workspace/github/python-projects
+cd ~/dotfiles-mac/work-envs/data-science-env
+NAME=my-notebook PORT=8888 WORK_VOLUME=data-scientist-notes NOTEBOOK_IMAGE_VERSION=latest data-science-notebook/up.sh
+sleep 1m
+docker exec -it my-notebook /bin/bash
+docker exec -it my-notebook /bin/bash

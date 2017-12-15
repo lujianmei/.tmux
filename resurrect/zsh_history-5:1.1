@@ -1,0 +1,64 @@
+git pull
+cd ~/.oh-my-zsh
+git pull
+cd ~/dotfiles-mac
+docker image -a
+docker images -a
+n ~/.zshrc
+kill -9 15786
+n
+tmuxinator start editors
+ranger
+exit
+tmuxinator start mac
+cd /Users/kevin
+tmuxinator start python-projects
+tmuxinator start server-tools
+tmuxinator start editors
+cd ~/
+cd /Users/kevin
+ranger
+sleep 5m
+cd /Users/kevin/workspace/github/python-projects
+sleep 3m
+cd ~/dotfiles-mac/work-envs/data-science-env
+cd /Users/kevin
+sudo nginx
+cd ~/.emacs.d
+NAME=my-notebook PORT=8888 WORK_VOLUME=data-scientist-notes NOTEBOOK_IMAGE_VERSION=latest data-science-notebook/up.sh
+git pull origin develop
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
+docker exec -it my-notebook-mongo mongo admin
+sleep 1m
+cd ~/.SpaceVim
+git pull
+docker exec -it my-notebook /bin/bash
+cd ~/.oh-my-zsh
+git pull
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
+docker exec -it my-notebook-mongo mongo admin
+cd ~/dotfiles-mac
+docker exec -it my-notebook-graphite /bin/bash
+docker exec -it my-notebook-graphite
+docker exec -it my-notebook-graphite /bin/bash
+docker ps
+docker exec -it my-notebook-mongo /bin/bash
+docker exec -it my-notebook /bin/bash
+docker ps 
+stop-python-env
+start-python-env
+docker exec -it my-notebook /bin/bash
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
+docker exec -it my-notebook-mongo /bin/bash
+docker exec -it my-notebook-graphite /bin/bash
+cd work-envs
+ls
+cd kube
+cd kubernetes-vagrant-coreos-cluster
+ls
+NODE_MEM=1024 NODE_CPUS=2 NODES=2 USE_KUBE_UI=true vagrant up
+tmux --version
+tmux -v
+tmux -version
+tmux --version
+tmux -v

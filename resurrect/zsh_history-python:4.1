@@ -1,64 +1,64 @@
+kill -9 2721
+exit
+tmuxinator start mac
+tmuxinator start python-projects
+tmuxinator start my-blog
 cd /Users/kevin
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes
-jupyter notebook
-cd /Users/kevin/workspace/github/python-projects
-/usr/local/Cellar/emacs-plus/25.3/bin/emacs -nw
-ipython
-cd ~/.SpaceVim
-cd /Users/kevin/workspace/github/my-blog
+tmuxinator start server-tools
+cd /Users/kevin
 cd ~/
-vim
-git pull
-cd django
-source ~/workspace/github/python-projects/env36/bin/activate
+sleep 3m
 cd /Users/kevin
 sudo nginx
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/data-scientist-roadmap
-source ~/workspace/github/python-projects/env36/bin/activate
-cd ~/workspace/github/lisp-projects
-lein repl
-source ~/workspace/github/python-projects/env36/bin/activate
-cd ~/workspace/github/my-blog/
-bundle exec jekyll serve
+sleep 5m
+cd /Users/kevin/workspace/github/python-projects
+cd ~/dotfiles-mac/work-envs/data-science-env
+NAME=my-notebook PORT=8888 WORK_VOLUME=data-scientist-notes NOTEBOOK_IMAGE_VERSION=v2 data-science-notebook/up.sh
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
 cd ~/.emacs.d
 git pull origin develop
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/PythonDataScienceHandbook
-source ~/workspace/github/python-projects/env36/bin/activate
-cd dotfiles-mac/.tmuxinator
-ls
-cat editors.yml
-vi editors.yml
-ps -ef|grep tmux
-tmuxinator start python-projects
+docker exec -it my-notebook-mongo mongo admin
+cd /Users/kevin/workspace/github/my-blog
+cd ~/.SpaceVim
+git pull
+cd ~/.oh-my-zsh
+git pull
+cd ~/dotfiles-mac
+docker image -a
+docker images -a
+n ~/.zshrc
+kill -9 15786
+n
+tmuxinator start editors
+ranger
+exit
 tmuxinator start mac
 cd /Users/kevin
 tmuxinator start python-projects
 tmuxinator start server-tools
-tmuxinator start my-blog
 tmuxinator start editors
+cd ~/
+cd /Users/kevin
+ranger
+sleep 5m
+cd /Users/kevin/workspace/github/python-projects
+sleep 3m
+cd ~/dotfiles-mac/work-envs/data-science-env
 cd /Users/kevin
 sudo nginx
-cd ~/workspace/github/my-blog/
 cd ~/.emacs.d
-cd ~/.SpaceVim
-cd /Users/kevin/workspace/github/my-blog
-bundle exec jekyll serve
+NAME=my-notebook PORT=8888 WORK_VOLUME=data-scientist-notes NOTEBOOK_IMAGE_VERSION=latest data-science-notebook/up.sh
 git pull origin develop
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
+docker exec -it my-notebook-mongo mongo admin
+sleep 1m
+cd ~/.SpaceVim
 git pull
-cd django
-cd ~/workspace/github/lisp-projects
-source ~/workspace/github/python-projects/env36/bin/activate
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes
-jupyter notebook
-lein repl
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience
-source ~/workspace/github/python-projects/env36/bin/activate
-ls
-cd bike_rentals
-ls
-cp *.csv ~/workspace/github/python-projects/data/
-cp -p *.csv ~/workspace/github/python-projects/data/
-cp -n *.csv ~/workspace/github/python-projects/data/
-mkdir ~/workspace/github/python-projects/data
-cp -n *.csv ~/workspace/github/python-projects/data/
+docker exec -it my-notebook /bin/bash
+cd ~/.oh-my-zsh
+git pull
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
+docker exec -it my-notebook-mongo mongo admin
+cd ~/dotfiles-mac
+docker exec -it my-notebook-graphite /bin/bash
+docker exec -it my-notebook-graphite /bin/bash

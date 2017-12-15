@@ -1,0 +1,37 @@
+pane	5	1	:~	1	:*	1	:/Users/kevin	1	zsh	:
+pane	editor	1	:ranger	1	:*	1	:/Users/kevin	1	Python	:/usr/bin/python -O /usr/local/bin//ranger
+pane	editor	2	:n	0	:#-	1	:/Users/kevin	1	nvim	:/usr/local/Cellar/neovim/0.2.0_1/bin/nvim
+pane	mac	1	:~	1	:*	1	:/Users/kevin	1	zsh	:
+pane	mac	2	:~	0	:#	1	:/Users/kevin	1	zsh	:
+pane	mac	3	:~	0	:#	1	:/Users/kevin	1	zsh	:
+pane	mac	4	:~	0	:#-	1	:/Users/kevin	1	zsh	:
+pane	my-blog	1	:..ithub/my-blog	1	:*	1	:/Users/kevin/workspace/github/my-blog	1	zsh	:
+pane	python	1	:..a-science-env	0	:#-	1	:/Users/kevin/dotfiles-mac/work-envs/data-science-env	1	zsh	:
+pane	python	2	:..thon-projects	0	:#	1	:/Users/kevin/workspace/github/python-projects	1	zsh	:
+pane	python	3	:..thon-projects	0	:#	1	:/Users/kevin/workspace/github/python-projects	1	zsh	:
+pane	python	4	:..thon-projects	1	:*	1	:/Users/kevin/workspace/github/python-projects	1	zsh	:
+pane	python	5	:..thon-projects	0	:#	1	:/Users/kevin/workspace/github/python-projects	1	zsh	:
+pane	python	6	:..thon-projects	0	:#	1	:/Users/kevin/workspace/github/python-projects	1	zsh	:
+pane	python	7	:..a-science-env	0	:#	1	:/Users/kevin/dotfiles-mac/work-envs/data-science-env	1	zsh	:
+pane	tools	1	:vagrant	0	:-	1	:/Users/kevin/dotfiles-mac/work-envs/kubernetes-vagrant-coreos-cluster	1	vagrant	:vagrant up
+pane	tools	2	:core@master:/usr/bin	0	:	1	:/Users/kevin/dotfiles-mac/work-envs/kubernetes-vagrant-coreos-cluster	1	vagrant	:vagrant ssh master
+pane	tools	3	:..oreos-cluster	1	:*	1	:/Users/kevin/dotfiles-mac/work-envs/kubernetes-vagrant-coreos-cluster	1	zsh	:
+window	5	1	1	:*	5766,80x23,0,0,17
+window	editor	1	1	:*	b263,80x24,0,0,6
+window	editor	2	0	:#-	b264,80x24,0,0,7
+window	mac	1	1	:*	b25d,80x24,0,0,0
+window	mac	2	0	:#	b25e,80x24,0,0,1
+window	mac	3	0	:#	b25f,80x24,0,0,2
+window	mac	4	0	:#-	b260,80x24,0,0,3
+window	my-blog	1	1	:*	b261,80x24,0,0,4
+window	python	1	0	:#-	b1c5,173x41,0,0,8
+window	python	2	0	:#	b1c6,173x41,0,0,9
+window	python	3	0	:#	590f,173x41,0,0,10
+window	python	4	1	:*	5910,173x41,0,0,11
+window	python	5	0	:#	5911,173x41,0,0,12
+window	python	6	0	:#	5912,173x41,0,0,13
+window	python	7	0	:#	5913,173x41,0,0,14
+window	tools	1	0	:-	5514,173x20,0,0,15
+window	tools	2	0	:	5515,173x20,0,0,16
+window	tools	3	1	:*	5517,173x20,0,0,18
+state	tools	python

@@ -1,64 +1,64 @@
-emacs --version
-emacs
-emacs -nw
-cd ~/dotfiles-mac/.tmuxinator
+docker rmi lujianmei/data-science-notebook:v2
+n ~/dotfiles-mac/shells/clean-docker.sh
+~/dotfiles-mac/shells/clean-docker.sh
+docker pull lujianmei/data-science-notebook
+docker pull lujianmei/scrapy-app
+docker images -a
 ls
-vi my-blog.yml
-cp my-blog.yml editor.yml
-vi editor.yml
-vi my-blog.yml
-exit
-exit
-tmux
-exit
-tmux
-exit
-tmux
-exit
-tmux
-exit
-cd dotfiles-mac/.tmuxinator
-vi mac.yml
+cd work-envs
 ls
-mv editor.yml editors.yml
-vi mac.yml
+docker images ps
+docker images -a
+vagrant --version
+docker pull lujianmei/data-science-notebook
+cd ..
+ls
+git submodule add https://github.com/lujianmei/kubernetes-vagrant-coreos-cluster work-envs/kubernetes-vagrant-coreos-cluster
+VBoxManage dhcpserver remove --netname HostInterfaceNetworking-vboxnet0
+vagrant plugin install vagrant-parallels
+docker images -a
+git submodule add https://github.com/lujianmei/kubernetes-vagrant-coreos-cluster work-envs/kubernetes-vagrant-coreos-cluster
+git submodule add git@github.com:lujianmei/kubernetes-vagrant-coreos-cluster.git work-envs/kubernetes-vagrant-coreos-cluster
+ls
+cd work-envs
+ls
+cd kube
+cd kubernetes-vagrant-coreos-cluster
+ls
+docker pull lujianmei/data-science-notebook
+kill -9 2721
+exit
 tmuxinator start mac
-tmuxinator start server-tools
-cd /Users/kevin
-tmuxinator start editors
+tmuxinator start python-projects
 tmuxinator start my-blog
 cd /Users/kevin
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes
-jupyter notebook
-cd /Users/kevin/workspace/github/python-projects
-/usr/local/Cellar/emacs-plus/25.3/bin/emacs -nw
-ipython
-cd ~/.SpaceVim
-cd /Users/kevin/workspace/github/my-blog
+tmuxinator start server-tools
+cd /Users/kevin
 cd ~/
-vim
-git pull
-cd django
-source ~/workspace/github/python-projects/env36/bin/activate
+sleep 3m
 cd /Users/kevin
 sudo nginx
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/R_Python_ForDataScience
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/data-scientist-roadmap
-source ~/workspace/github/python-projects/env36/bin/activate
-cd ~/workspace/github/lisp-projects
-lein repl
-source ~/workspace/github/python-projects/env36/bin/activate
-cd ~/workspace/github/my-blog/
-bundle exec jekyll serve
+sleep 5m
+cd /Users/kevin/workspace/github/python-projects
+cd ~/dotfiles-mac/work-envs/data-science-env
+NAME=my-notebook PORT=8888 WORK_VOLUME=data-scientist-notes NOTEBOOK_IMAGE_VERSION=v2 data-science-notebook/up.sh
+docker exec -it my-notebook-postgres /bin/bash -c "su postgres"
 cd ~/.emacs.d
 git pull origin develop
-cd ~/workspace/github/my-blog/work-notes/notes/data-scientist-notes/PythonDataScienceHandbook
-source ~/workspace/github/python-projects/env36/bin/activate
-cd dotfiles-mac/.tmuxinator
-ls
-cat editors.yml
-vi editors.yml
-ps -ef|grep tmux
-tmuxinator start python-projects
+docker exec -it my-notebook-mongo mongo admin
+cd /Users/kevin/workspace/github/my-blog
+cd ~/.SpaceVim
+git pull
+cd ~/.oh-my-zsh
+git pull
+cd ~/dotfiles-mac
+docker image -a
+docker images -a
+n ~/.zshrc
+kill -9 15786
+n
+tmuxinator start editors
+ranger
+exit
 tmuxinator start mac
-tmuxinator start python-projects
+tmuxinator start my-blog
